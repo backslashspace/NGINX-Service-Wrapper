@@ -12,9 +12,11 @@ This also allows nginx to be reloaded by external programs while running
 
 Note: reload signal processes must be started as the same user as the main process
 
----
-
 ## How to use:
 1. Extract the wrapper into your nginx directory
 2. Register the wrapper as a service
-3. [Optionally] Configure the service to not use the Local System Account  
+3. [Optionally] Configure the service to not use the Local System Account
+
+---
+
+Written in C# (12.0) .Net Framework v4.8.1
